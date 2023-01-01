@@ -3,7 +3,7 @@ talker.pyで送った数字のカウントをlistener.pyで表示する
 
 # 動作手順
 1. GithubのサイトでcodeからHTTPSへ移動し, URLをコピーする.
-1. ``` $ git clone https://github.com/Yoshino0304/mypkg.git```
+1. ```` $ git clone https://github.com/Yoshino0304/mypkg.git````
 1. 実行する.
 
 * 実行例
