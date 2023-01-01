@@ -1,16 +1,24 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText: 2022 Taiki Yoshino
+# SPDX-License-Identifier: BSD-3-Clause
 import rclpy
 from rclpy.node import Node
-from person_msgs.srv import Query #使う型を変更
- 
-def cb(request, response):
-    if request.name == "吉野泰生":
-        response.age = 19
-    else:
-        response.age = 255
+from std_msgs.msg import Int16
 
-    return response
-
+class Talker():
+    def __init__(self):
+        self.pub = node.create_publisher(Int16, "countup", 10)
+        self.n = 0
+        
 rclpy.init()
 node = Node("talker")
-srv = node.create_service(Query, "query", cb) #サービスの作成
+talker = Talker()
+
+def cb():
+    msg = Int16()
+    msg.data = talker.n
+    talker.pub.publish(msg)
+    talker.n += 1
+
+node.create_timer(0.5, cb)
 rclpy.spin(node)
