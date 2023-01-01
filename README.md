@@ -18,10 +18,11 @@ $ colcon build
 
 * パターン1:1つの端末で実行.
 
+2つのノードをトピックで連結し, ノード間でやり取りをする方法
+
 ```$ ros2 launch mypkg talk_listen.launch.py```
 
 talk_listen.launch.pyを使用することによってtalkerとlistenerの2つのノードを1度に立ち上げている. 
-
 
 * パターン2:２つの端末で実行.
 
