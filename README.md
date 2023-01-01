@@ -6,14 +6,19 @@ talker.pyで送った数字のカウントをlistener.pyで表示する
 1. ``` $ git clone https://github.com/Yoshino0304/mypkg.git```
 1. 実行する.
 
-* 実行例 　
+* 実行例
+
 ```$ cd mypkg```
 ```$ colcon build```
+
 * ２つの端末を開く
+
 1つ目の端末での操作
+
 ```$ ros2 run mypkg talker```
 
 2つ目の端末での操作
+
 ```$ ros2 run mypkg listener```
 
 これでtalker.pyが送った数字をlistener.pyで表示できる.
