@@ -28,6 +28,7 @@ $ colcon build
 これでtalker.pyが送った数字をlistener.pyで表示できる.
 # 必要なソフトウェア
 * Python 3.7～3.10
+* ROS2
 
 # 動作確認済み環境
 * Ubuntu 22.04.1LST
