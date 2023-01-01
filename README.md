@@ -1,7 +1,7 @@
 # mypkg
 [![test](https://github.com/Yoshino0304/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/Yoshino0304/mypkg/actions/workflows/test.yml)
 
-talker.pyで送った数字のカウントをlistener.pyで表示する
+talker.pyで送った数字のカウントをlistener.pyで表示するプログラムです.
 
 # 動作手順
 1. GithubのサイトでcodeからHTTPSへ移動し, URLをコピーする.
