@@ -14,11 +14,14 @@ talker.pyで送った数字のカウントをlistener.pyで表示するプログ
 $ cd mypkg
 $ colcon build
 ````
+ここから2つのパターンに分かれる. 
+
 * パターン1:1つの端末で実行.
 
 ```$ ros2 launch mypkg talk_listen.launch.py```
 
 talk_listen.launch.pyを使用することによってtalkerとlistenerの2つのノードを1度に立ち上げている. 
+
 
 * パターン2:２つの端末で実行.
 
