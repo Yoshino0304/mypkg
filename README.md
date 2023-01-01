@@ -8,8 +8,8 @@ talker.pyで送った数字のカウントをlistener.pyで表示する
 
 * 実行例
 
-```$ cd mypkg```
-```$ colcon build```
+````$ cd mypkg```
+```$ colcon build````
 
 * ２つの端末を開く
 
