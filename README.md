@@ -24,11 +24,15 @@ talk_listen.launch.pyを使用することによってtalkerとlistenerの2つ�
 
 1つ目の端末での操作
 
-```$ ros2 run mypkg talker```talkerノードの実行
+```$ ros2 run mypkg talker```
+
+talkerノードの実行をしている.
 
 2つ目の端末での操作
 
-```$ ros2 run mypkg listener```listenerノードの実行
+```$ ros2 run mypkg listener```
+
+listenerノードの実行をしている.
 
 これでtalker.pyが送った数字をlistener.pyで表示できる.
 # 必要なソフトウェア
