@@ -1,4 +1,5 @@
 # mypkg
+![test](https://github.com/Yoshino0304/mypkg/actions/workflows/test.yml/badge.svg)
 talker.pyで送った数字のカウントをlistener.pyで表示する
 
 # 動作手順
