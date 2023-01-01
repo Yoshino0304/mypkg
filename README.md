@@ -19,11 +19,11 @@ $ colcon build
 
 1つ目の端末での操作
 
-```$ ros2 run mypkg talker```
+```$ ros2 run mypkg talker```talkerノードの実行
 
 2つ目の端末での操作
 
-```$ ros2 run mypkg listener```
+```$ ros2 run mypkg listener```listenerノードの実行
 
 これでtalker.pyが送った数字をlistener.pyで表示できる.
 # 必要なソフトウェア
