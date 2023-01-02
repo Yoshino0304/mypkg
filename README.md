@@ -12,7 +12,6 @@ talker.pyで送った数字のカウントをlistener.pyで表示するプログ
 
 ````
 $ cd mypkg
-$ colcon build
 ````
 ここから2つのパターンに分かれる. 
 
