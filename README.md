@@ -40,7 +40,7 @@ listenerノードの実行をしている.
 
 これでtalker.pyが送った数字をlistener.pyで表示できる.
 # 必要なソフトウェア
-* Python 3.7～3.10
+* Python 3.10.6
 * ROSのバージョン　ROS2
 
 # 動作確認済み環境
